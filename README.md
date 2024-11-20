@@ -44,38 +44,26 @@ Os testes foram realizados no Logisim, com todas as combinações de entradas se
    - Fazendo a confirmação
    - Pares iguais
    
-   <video width="600" controls>
-    <source src="imagens/jogada_feliz.webm" type="video/webm">
-    Seu navegador não suporta a exibição de vídeos.
-   </video>
+   ![Teste](imagens/jogada_feliz.gif)
 
 2. **Jogada triste**:
    - Escolhendo linha e coluna
    - Fazendo a confirmação
    - Pares diferentes
 
-   <video width="600" controls>
-    <source src="imagens/jogada_triste.webm" type="video/webm">
-    Seu navegador não suporta a exibição de vídeos.
-   </video>
+   ![Teste](imagens/jogada_triste.gif)
 
 3. **Reset**:
    - Resetando o jogo
 
-   <video width="600" controls>
-    <source src="imagens/reset.webm" type="video/webm">
-    Seu navegador não suporta a exibição de vídeos.
-   </video>
+   ![Teste](imagens/reset.gif)
 
 4. **Pares diferentes**:
    - Garantindo a escolha de pares diferentes
    - Fazendo várias confirmações
    - Escolhendo o mesmo display
 
-   <video width="600" controls>
-    <source src="imagens/posicoes_diferentes.webm" type="video/webm">
-    Seu navegador não suporta a exibição de vídeos.
-   </video>
+   ![Teste](imagens/posicoes_diferentes.gif)
 
 ### Resultados Finais
 
