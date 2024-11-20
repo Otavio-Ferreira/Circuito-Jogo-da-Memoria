@@ -7,7 +7,7 @@ Este projeto consiste na implementação de um jogo da memória, com um tauleiro
 ### Funcionamento
 O jogo da memória consiste em um tabuleiro 4x4 controlado por quatro botões: um para selecionar a linha, um para a coluna, um para confirmar e outro para resetar o jogo. Cada jogador, exibido em um display de 7 segmentos, escolhe uma posição no tabuleiro usando os botões de linha e coluna e pressiona o botão de confirmação para revelar o conteúdo dessa posição, exibido em um display de 7 segmentos. O jogador deve escolher duas posições consecutivas e confirmar novamente para validar a jogada. Se acertar, ganha um ponto, que é mostrado em seu placar; as peças permanecem reveladas. Se errar, as peças voltam a ser ocultadas, e o turno passa para o próximo jogador. Quando todas as peças forem reveladas, o jogo termina. O botão de reset reinicia o tabuleiro, os placares e o turno dos jogadores. 
 
-![Visão geral do circuito](imagens/geral.png.png)
+![Visão geral do circuito](imagens/geral.png)
 
 ## 2. Diagramas
 
@@ -29,7 +29,7 @@ O circuito foi dividido em sete módulos principais:
 
 7. **Inverter jogador**: Caso a jogada não seja válida, alterna automaticamente para o próximo jogador e atualiza o display indicando o jogador da vez.
 
-![Diagrama Geral](imagens/diagrama.png.png)
+![Diagrama Geral](imagens/diagrama.png)
 
 ## 3. Testes
 
@@ -44,26 +44,26 @@ Os testes foram realizados no Logisim, com todas as combinações de entradas se
    - Fazendo a confirmação
    - Pares iguais
    
-   ![Teste](imagens/jogada_feliz.webm)
+   ![Teste](imagens/jogada_feliz.gif)
 
 2. **Jogada triste**:
    - Escolhendo linha e coluna
    - Fazendo a confirmação
    - Pares diferentes
 
-   ![Teste](imagens/jogada_triste.webm)
+   ![Teste](imagens/jogada_triste.gif)
 
 3. **Reset**:
    - Resetando o jogo
 
-   ![Teste](imagens/reset.webm)
+   ![Teste](imagens/reset.gif)
 
 4. **Pares diferentes**:
    - Garantindo a escolha de pares diferentes
    - Fazendo várias confirmações
    - Escolhendo o mesmo display
 
-   ![Teste](imagens/posicoes_diferentes.webm)
+   ![Teste](imagens/posicoes_diferentes.gif)
 
 ### Resultados Finais
 
